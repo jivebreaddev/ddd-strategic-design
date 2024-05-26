@@ -1,10 +1,11 @@
 package kitchenpos.order.application;
 
+import kitchenpos.external.infra.kitchenrider.KitchenridersClient;
 import kitchenpos.menu.domain.Menu;
-import kitchenpos.menu.application.port.out.MenuRepository;
+import kitchenpos.menu.domain.MenuRepository;
 import kitchenpos.order.application.port.in.OrderService;
-import kitchenpos.order.application.port.out.OrderRepository;
-import kitchenpos.order.application.port.out.OrderTableRepository;
+import kitchenpos.order.domain.OrderRepository;
+import kitchenpos.order.domain.OrderTableRepository;
 import kitchenpos.order.domain.Order;
 import kitchenpos.order.domain.OrderLineItem;
 import kitchenpos.order.domain.OrderStatus;

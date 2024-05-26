@@ -1,4 +1,4 @@
-package kitchenpos.order.application.port.out;
+package kitchenpos.order.domain;
 
 import kitchenpos.order.domain.OrderTable;
 
